@@ -1,5 +1,5 @@
 # Cquate
-An interpreted language for numeric computing
+An interpreted language for numeric computing (<a href="http://cquate.com">cquate docs and info</a>)
 
 ## Background
 Cquate attemps to be a high-level language for numeric computing, while roughly following syntax norms of most modern languages. It started out as a hobby project many years ago, and after a few years I decided to just "finish" it. After much effort, here it is very much unfinished but delightfully functional (with limitations). It remains a work in progress.
