@@ -24,3 +24,23 @@ cquate 'sin(pi/3)'
        0.866
 ```
 
+Random numbers
+```
+cquate 'rand(1,4)'
+=
+       0.338 ,      0.331 ,       0.274 ,       0.746
+```
+Gaussian (normal) distribution
+```
+cquate 'grand(1,4)'
+=
+       -0.224 ,      -0.076 ,       0.606 ,       0.337
+```
+Variable assignment, matrix computations
+```
+cquate 'a=rand(2); inverse(a)'
+=
+       -0.231 ,      1.086
+       1.309 ,      -0.467
+```
+
