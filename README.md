@@ -43,4 +43,9 @@ cquate 'a=rand(2); inverse(a)'
        -0.231 ,      1.086
        1.309 ,      -0.467
 ```
-
+Complex numbers
+```
+cquate 'exp(i*pi/2)'
+=
+       0.000 + i1.000
+```
