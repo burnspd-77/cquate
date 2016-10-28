@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -lm -O2
-export INCLUDES = -I../ -I. -I../armadillo-6.500.5/include/armadillo_bits -I../armadillo -I../container -I../hash -I../matrix -I../string -I../variable -include ../armadillo-6.500.5/include/armadillo
-BASE_INCLUDES = -I. -Iarmadillo-6.500.5/include/armadillo_bits -Iarmadillo -Icontainer -Ihash -Imatrix -Istring -Ivariable -include armadillo-6.500.5/include/armadillo
+export INCLUDES = -I../ -I. -I../armadillo-6.500.5/include -I../armadillo -I../container -I../hash -I../matrix -I../string -I../variable -include ../armadillo-6.500.5/include/armadillo
+BASE_INCLUDES = -I. -Iarmadillo-6.500.5/include -Iarmadillo -Icontainer -Ihash -Imatrix -Istring -Ivariable -include armadillo-6.500.5/include/armadillo
 
 ARMA_DIR = armadillo
 CONT_DIR = container
