@@ -10,7 +10,7 @@ Developing a functional syntax, parser, and interpreter is a major undertaking. 
 Cquate uses the <a href="http://arma.sourceforge.net/">Armadillo library</a> for many matrix calculations.
 
 ## Building
-Jump in to <code>/cq_container/cq_container</code> and run <code>make</code>, then jump into <code>/cquate</code> and again run <code>make</code>. The build has been tested with gcc 4.6.3. Please report build errors if you encounter them!
+Jump into <code>/cq_container/cq_container</code> and run <code>make</code>, then jump into <code>/cquate</code> and again run <code>make</code>. The binary 'cquate' will drop into /cquate. The build has been tested with gcc 4.6.3. Please report build errors if you encounter them!
 
 Building the container creates a matrix library <code>libcontainer.a</code>, which must exist in order for <code>cquate</code> to build.
 
